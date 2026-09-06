@@ -1,0 +1,21 @@
+export * from './auth';
+export * from './patients';
+export * from './facilities';
+export * from './doctors';
+export * from './appointments';
+export * from './consultations';
+export * from './medicalRecords';
+export * from './referrals';
+export * from './followUps';
+export * from './inventory';
+
+export { authApi } from './auth';
+export { appointmentsApi } from './appointments';
+export { consultationsApi } from './consultations';
+export { doctorsApi } from './doctors';
+export { facilitiesApi } from './facilities';
+export { followUpsApi } from './followUps';
+export { medicalRecordsApi } from './medicalRecords';
+export { patientsApi } from './patients';
+export { referralsApi } from './referrals';
+export { inventoryApi } from './inventory';
